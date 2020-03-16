@@ -1,0 +1,7 @@
+server:
+    port: 15001
+
+application:
+    name: @project.name@
+    description: @project.description@
+    version: @project.version@
