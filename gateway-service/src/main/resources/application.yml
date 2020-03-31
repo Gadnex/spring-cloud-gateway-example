@@ -1,9 +1,16 @@
 server:
     port: 8080
 
-#management:
-#    endpoint.gateway.enabled: true
-#    endpoints.web.exposure.include: gateway
+management:
+    endpoint:
+        health:
+            show-details: always
+        gateway:
+            enabled: true
+    endpoints:
+        web:
+            exposure:
+                include: '*'
     
 spring:
     application:
